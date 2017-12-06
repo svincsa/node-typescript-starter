@@ -10,6 +10,7 @@
     ecmaFeatures: 
       modules: true
   rules:
+    linebreak-style: ["error", "windows"]
     generator-star-spacing:
       - 2
       - before: true

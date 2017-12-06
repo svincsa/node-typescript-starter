@@ -1,7 +1,7 @@
 import * as supertest from 'supertest'
 import app from './App'
 
-describe('App', () => {
+describe('App!', () => {
   it('works', () =>
     supertest(app)
       .get('/')
